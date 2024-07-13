@@ -1,0 +1,17 @@
+article > p.class
+{
+    color: blue;
+}
+
+article p.S_class
+{
+    color:red;
+
+}
+
+.hola > p.class
+{
+    font-style: italic;
+    font-size: 30px;
+
+}
