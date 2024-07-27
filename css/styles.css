@@ -1,41 +1,47 @@
-article > p.class
-{
-    color: blue;
+
+.box1{
+    background-color:chocolate;
+    padding: 20px;
+    
+    
 }
 
-article p.S_class
-{
-    color:red;
+.box2{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
 
-}
-
-.hola > p.class
-{
-    font-style: italic;
-    font-size: 30px;
-
-}
-
-.box {
-    background-color: green;
-    width: 50px;
-    height: 50px;
-    margin: 10px 10px 10px 10px;
-    float: left;
+        position: absolute;
+        top: 0px;
+        left: 0px;
 
 }
 
-.none 
-{
-    clear: left;
+.box3{
+    background-color: rgba(207, 29, 29, 0.712);
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.box4{
+    background-color: rgba(194, 197, 26, 0.767);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 
-.box2 {
-    background-color: green;
-    width: 50px;
-    height: 50px;
-    margin: 10px 10px 10px 10px;
-    float: right;
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.wrapper{
+    width: 100%;
+    height: 700px;
+    background-color: cyan;
 }
